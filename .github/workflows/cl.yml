@@ -1,0 +1,4 @@
+steps:
+  - name: Secrets Setting action
+    env: # Or as an environment variable
+      OPEN_AI_KEY: ${{ secrets.OPEN_AI_KEY }}
